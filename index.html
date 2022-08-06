@@ -29,45 +29,45 @@
     <h2>@Lists</h2>
     <h2>Unordered Lists</h2>
     <p>We dont want to show bullets. We can remove them in CSS.</p>
-    <ul>
+    <ul class="no-bullet">
         <li>Item one</li>
         <li>Item two</li>
         <li>Item three</li>
     </ul>
     <h2>Unordered Inline lists</h2>
-    <ul>
-        <li>Inline Item one</li>
-        <li>Inline Item two</li>
-        <li>Inline Item three</li>
+    <ul class="no-bullet">
+        <li class="list-inline">Inline Item one</li>
+        <li class="list-inline">Inline Item two</li>
+        <li class="list-inline">Inline Item three</li>
     </ul>
 
     <h2>Reverse ordered list</h2>
-    <ol>
+    <ol reversed>
         <li>Item 1</li>
         <li>Item 2</li>
         <li>Item 3</li>
     </ol>
     <hr>
     <h2>@Nav</h2>
-    <nav>
-        <div>Anubhav Jain</div>
-        <ul>
-            <li>
-                <a href="/">Item 1</a>
+    <nav class="navigation container">
+        <div class="nav-brand">Anubhav Jain</div>
+        <ul class="nav-pills no-bullet">
+            <li class="list-inline">
+                <a class='link link-active' href="/">Item 1</a>
             </li>
-            <li>
-                <a href="/">Item 2</a>
+            <li class="list-inline">
+                <a class='link' href="/">Item 2</a>
             </li>
-            <li>
-                <a href="/">Item 3</a>
+            <li class="list-inline">
+                <a class='link'     href="/">Item 3</a>
             </li>
         </ul>
     </nav>
     <hr>
     <h2>@Header</h2>
-    <header>
-        <img src="images/head.svg" alt='image'/>
-        <h1>Heading inside header</h1>
+    <header class="hero">
+        <img src="images/head.svg" class='hero-img' alt='image'/>
+        <h1 class="hero-heading">My name is <span style="color: var(--primary-color)">Anubhav Jain</span></h1>
     </header>
     
     <hr>
