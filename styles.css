@@ -25,17 +25,24 @@ hr {
   margin: auto;
   text-align: center;
 }
-
+.container-left {
+  max-width: 700px;
+  width: 100%;
+  text-align: left;
+}
+.section .container .container-left>h1{
+  text-align: left;
+}
 /**links**/
 .link {
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
 
-.primary-link:hover{
+.primary-link:hover {
   background-color: #025037;
 }
-.secondary-link:hover{
+.secondary-link:hover {
   background-color: #a7a9ad;
 }
 .primary-link {
@@ -52,7 +59,7 @@ hr {
   border: 1px solid var(--primary-color);
   margin: 1rem auto;
 }
-a:hover{
+a:hover {
   background-color: #025037;
 }
 /**list styles**/
