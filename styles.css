@@ -20,9 +20,10 @@ hr {
   margin: 2rem 0rem;
 }
 .container-center {
-  max-width: 900px;
+  max-width: 700px;
   width: 100%;
   margin: auto;
+  text-align: center;
 }
 
 /**links**/
@@ -35,7 +36,7 @@ hr {
   background-color: #025037;
 }
 .secondary-link:hover{
-  background-color: var(--dark-gray);
+  background-color: #a7a9ad;
 }
 .primary-link {
   background-color: var(--primary-color);
@@ -109,6 +110,7 @@ a:hover{
   padding: 2rem;
   margin: 2rem 0;
   /* width:0.6vw; */
+  text-align: center;
   border-radius: 1rem;
 }
 .section h1 {
